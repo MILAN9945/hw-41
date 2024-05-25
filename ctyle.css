@@ -1,0 +1,51 @@
+.subbutton{
+   
+
+   margin-top: 200px;
+   
+   width: 216px;
+   height: 50px;
+   flex-shrink: 0;
+   text-align: center;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 30px;
+   /* 187.5% */
+   letter-spacing: 0.96px;
+   display: block;
+   border: none;
+   border-radius: 4px;
+   background:  blue;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+   color: white;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+}
+
+.button-images{
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40));
+    background-repeat: no-repeat;
+    display: flex;
+    
+    align-items: center;
+    padding-top: 118px;
+    padding-bottom: 198px;
+}
+
+.dailog{
+   display: flex;
+   gap: 15px;
+   justify-content: center;
+   padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.link{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 150px;
+    margin-bottom: 100px;
+}

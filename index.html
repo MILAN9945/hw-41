@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./ctyle.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./ctyle.css">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Ігри</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Головна</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            ігри
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">не популярні</a></li>
+                            <li><a class="dropdown-item" href="#">популярні</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">дуже популярні</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="пошук" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">пошук</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="dailog">
+        <a class="btn btn-primary" href="#" role="button">ми</a>
+        <button class="btn btn-primary" type="submit">відгуки</button>
+        <input class="btn btn-primary" type="button" value="зв'язок">
+        <input class="btn btn-primary" type="submit" value="категорія">
+        <input class="btn btn-primary" type="reset" value="менеджер">
+    </div>
+    <!-- Button trigger modal -->
+    <div class="button-images">
+        <button class="subbutton" type="button" class="btn btn-primary d-flex justify-content-center"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">
+            зареєструваться
+        </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">зареєструйтесь</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+<ul class="link">
+    <li>
+<div class="card" style="width: 18rem;">
+    <img src="./images/work1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Олена</h5>
+      <p class="card-text">дизайнер</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</li>
+<li>
+  <div class="card" style="width: 18rem;">
+    <img src="./images/work2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Сергій</h5>
+      <p class="card-text">фото майстер</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</li>
+<li>
+  <div class="card" style="width: 18rem;">
+    <img src="./images/work3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Діана</h5>
+      <p class="card-text">директор</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</li>
+</ul>
+<div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+    
+  </div>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
